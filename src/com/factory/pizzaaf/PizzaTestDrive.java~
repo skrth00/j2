@@ -1,0 +1,13 @@
+package com.factory.pizzaaf;
+
+public class PizzaTestDrive {
+    public static void main(String[] args) {
+        PizzaStore SMStore = new SMPizzaStore();
+     
+ 
+        Pizza pizza = SMStore.orderPizza("potato");
+        System.out.println("Ethan ordered a " + pizza + "\n");
+ 
+       
+ }
+}
