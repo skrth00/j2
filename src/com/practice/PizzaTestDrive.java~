@@ -1,0 +1,14 @@
+package com.factory.pizzafm;
+
+public class PizzaTestDrive {
+ 
+  public static void main(String[] args)
+  {
+    Pizza pizza = new PizzaStore();
+    System.out.println("hankyoung ordered"+pizza.orderPizza("Olive"));
+    System.out.println(pizza.getName());
+  
+  }
+  
+  
+}

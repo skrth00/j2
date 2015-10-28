@@ -1,0 +1,10 @@
+package com.strategy;
+
+public class FlyRocketPowered{
+ 
+  public void fly()
+  {
+    System.out.println("i am flying with rocket power")
+  
+  }
+}

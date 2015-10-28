@@ -1,0 +1,28 @@
+package com.practice;
+
+//pizzafm
+
+public abstract class Pizza{
+  
+  String name;
+
+  void prepare()
+  {System.out.println("-------preparing-------");}
+  void bake()
+  {System.out.println("-------baking-------");}
+  void cut()
+  {System.out.println("-------cutting-------");}
+  void boxing()
+  {System.out.println("-------boxing--------");}
+  
+  public void getName()
+  {
+    return name;
+  }
+  public String toString(){
+  
+    System.out.println("--------"+name+"--------");
+    return name;
+  }
+  
+}

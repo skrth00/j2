@@ -1,0 +1,23 @@
+package com.singleton;
+
+public class Singleton{
+  
+  private boolean empty;
+  private boolean boiled;
+
+  private static Singleton uniqueInstance;
+  
+  private static int numCalled;
+  
+  private Singleton(){}
+  public static Singleton getInstance(){
+  
+    if(uniqueInstance==null)
+    {
+       System.out.println("Creating new instance ....");
+      uniqueInstance=new Singleton();
+    }
+    System.out.println("numCalled:"+numCalled++);
+    return uniqueInstance;
+  }
+ 
