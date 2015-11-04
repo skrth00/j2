@@ -1,0 +1,8 @@
+package com.command.simpleremote
+  
+  
+  public class SimpleRemoteControl{
+
+  void setCommand();
+  void buttonPressed();
+}

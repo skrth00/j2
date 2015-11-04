@@ -1,0 +1,11 @@
+package com.command.simpleremote
+  
+public class LightOnCommand implements Command,Light{
+
+  private Light light;
+  public void LightOnCommand(Light light)
+  {
+  }
+  public void execute();
+  
+}

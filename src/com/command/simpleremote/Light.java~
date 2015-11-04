@@ -1,0 +1,9 @@
+package com.command.simpleremote
+  
+  
+  public class Light{
+
+  public void on();
+  public void off();
+  
+}
