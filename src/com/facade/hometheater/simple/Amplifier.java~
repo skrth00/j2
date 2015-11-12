@@ -1,0 +1,8 @@
+package com.facade.hometheater.simple;
+
+public class Amplifier{
+
+  String description;
+  Tuner tuner;
+  DvdPlayer dvd;
+}
