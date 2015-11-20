@@ -1,0 +1,30 @@
+package com.templatemethod.duck;
+
+public class Duck implements Comparator<Duck> {
+ String name;
+ int weight;
+  
+ public Duck(String name, int weight) {
+  this.name = name;
+  this.weight = weight;
+ }
+ 
+ public String toString() {
+  return name + " weighs " + weight;
+ }
+ 
+ 
+  
+ public int compare(Duck duck1,Duck duck2) {
+ 
+  //Duck otherDuck = (Duck)object;
+  
+  if (duck1.Duck() < duck2.Duck()) {
+   return -1;
+  } else if (duck1.Duck() == duck2.Duck()) {
+   return 0;
+  } else { //duck1.Duck() > duck2.Duck()
+   return 1;
+  }
+ }
+}
