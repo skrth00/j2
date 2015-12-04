@@ -1,0 +1,46 @@
+package com.state.videoplayer;
+
+public class VideoPlayerTestDrive {
+
+ public static void main(String[] args) {
+  VideoPlayer gumballMachine = 
+   new VideoPlayer(10);
+
+  System.out.println(gumballMachine);
+
+  gumballMachine.insertQuarter();
+  gumballMachine.turnCrank();
+  gumballMachine.insertQuarter();
+  gumballMachine.turnCrank();
+
+  System.out.println(gumballMachine);
+
+  gumballMachine.insertQuarter();
+  gumballMachine.turnCrank();
+  gumballMachine.insertQuarter();
+  gumballMachine.turnCrank();
+
+  System.out.println(gumballMachine);
+
+  gumballMachine.insertQuarter();
+  gumballMachine.turnCrank();
+  gumballMachine.insertQuarter();
+  gumballMachine.turnCrank();
+
+  System.out.println(gumballMachine);
+
+  gumballMachine.insertQuarter();
+  gumballMachine.turnCrank();
+  gumballMachine.insertQuarter();
+  gumballMachine.turnCrank();
+
+  System.out.println(gumballMachine);
+
+  gumballMachine.insertQuarter();
+  gumballMachine.turnCrank();
+  gumballMachine.insertQuarter();
+  gumballMachine.turnCrank();
+
+  System.out.println(gumballMachine);
+ }
+}

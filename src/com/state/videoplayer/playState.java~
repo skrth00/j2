@@ -1,0 +1,16 @@
+package com.state.videoplayer;
+
+
+//playState
+public class playState implements State {
+   VideoPlayer videoPlayer;
+ 
+    public playStopState(VideoPlayer videoPlayer) {
+        this.videoPlayer = videoPlayer;
+    }
+ 
+public void playStop(){  System.out.println("");}
+ public void displaySleepOn(){}
+ public void displaySleepOff(){}
+ 
+}
